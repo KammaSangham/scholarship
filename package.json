@@ -1,0 +1,28 @@
+{
+  "name": "scholarship",
+  "version": "1.0.0",
+  "description": "Kamma sangham Scholarship static project",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KammaSangham/scholarship.git"
+  },
+  "keywords": [
+    "kammasangham",
+    "kamma",
+    "sangham"
+  ],
+  "author": "sravani P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KammaSangham/scholarship/issues"
+  },
+  "homepage": "https://github.com/KammaSangham/scholarship#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
