@@ -1,0 +1,239 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@font-face{ src:url(../fonts/Aladin-Regular.ttf); font-family:arun;}
+@font-face{ src:url(../fonts/HelveticaNeue.ttf); font-family:arun2;}
+@font-face{ src:url(../fonts/PatuaOne-Regular.otf); font-family:arun3;}
+@font-face{ src:url(../fonts/Raleway-Bold.ttf); font-family:arun4;}
+@font-face{ src:url(../fonts/Roboto-Black.ttf); font-family:arun5;}
+@font-face{ src:url(../fonts/Poppins-Medium.ttf); font-family:arun6;}
+
+
+
+
+
+body {
+margin:0px;
+background:url(../assets/body.gif) repeat;
+}
+
+
+#header {
+width:100%;
+height:180px;
+float:left;
+margin:0px 0px 10px 0px;
+/*margin:0px 0px 40px 0px;*/
+border-top:4px solid #ed2025;
+}
+#header #header_fix {
+width:990px;
+height:180px;
+margin:auto;
+}
+#header_fix #logo {
+width:382px;
+height:152px;
+float:left;
+margin:5px 0px 0px 304px;
+background:url(../assets/logo.png) no-repeat;
+}
+
+#header_fix #hf_rightall {
+width:auto;
+height:auto;
+float:right;
+margin:0px 0px 0px 0px;
+}
+#hf_rightall #hfra_phoneall {
+width:auto;
+height:auto;
+float:left;
+margin:0px 0px 0px 0px;
+background-color:#ed2025;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+}
+#hfra_phoneall #hfrapa_picon {
+width:26px;
+height:16px;
+float:left;
+margin:3px 0px 5px 7px;
+background:url(../assets/mob_icon.png) no-repeat;
+}
+#hfra_phoneall #hfrapa_ptext {
+width:auto;
+height:auto;
+float:left;
+margin:3px 10px 4px 7px;
+font-family:arun3;
+font-size:16px;
+color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#body {
+width:100%;
+min-height:400px;
+float:left;
+margin:0px 0px 0px 0px;
+}
+#body #body_fix {
+width:990px;
+min-height:400px;
+margin:auto;
+}
+#body_fix #bf_add_text {
+width:990px;
+height:auto;
+/*float:left;*/
+margin:0px 0px 0px 0px;
+}
+#bf_add_text #bfat_link {
+width:auto;
+height:auto;
+/*float:left;*/
+margin:0px 0px 0px 64px;
+font-family:arun6;
+font-size:18px;
+color:#ed2025;
+text-align:center;
+font-weight:bold;
+}
+#bf_add_text #bfat_link:hover {
+width:auto;
+height:auto;
+/*float:left;*/
+margin:0px 0px 0px 64px;
+font-family:arun6;
+font-size:18px;
+color:#333;
+text-align:center;
+font-weight:bold;
+text-decoration:underline;
+}
+#bf_add_text #bfat_link02 {
+width:auto;
+height:auto;
+float:right;
+margin:0px 35px 0px 0px;
+font-family:arun6;
+font-size:13px;
+color:#0093dd;
+text-align:left;
+font-weight:bold;
+}
+#bf_add_text #bfat_link02:hover {
+width:auto;
+height:auto;
+float:right;
+margin:0px 35px 0px 0px;
+font-family:arun6;
+font-size:13px;
+color:#333;
+text-align:left;
+font-weight:bold;
+text-decoration:underline;
+}
+
+#body_fix #bf_add_banner_img {
+width:990px;
+
+float:left;
+margin:0px 0px 0px 0px;
+
+}
+#bf_add_banner_img #bfai_bannner_add {
+    width: 990px;
+    height: 320px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    
+    background: url('../assets/Final Copy.JPG') round;
+}
+
+#body_fix #bf_add_img {
+/*width:990px;*/
+
+/*height:508px;*/
+float:left;
+margin:0px 0px 0px 0px;
+display:inline-flex;
+}
+
+#bf_add_img #bfai_add {
+    /*width: 900px;*/
+    width: 469px;
+    
+    height: 380px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    /*background: url(../assets/IMG-20180630-WA0024.jpg) round;*/
+    
+    background: url('../assets/Add File.jpg') round;
+}
+
+#bf_add_img #bfai_add02 {
+    width: 469px;
+    height: 380px;
+    float: left;
+    margin: 9px 0px 0px 70px;
+    background: url('../assets/ks-Ameerpet-1.jpg') round;
+    /*background: url(../assets/Kamma-Sangham-Member-Advertisement--.jpg) no-repeat;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ftr {
+width:100%;
+height:40px;
+float:left;
+margin:30px 0px 0px 0px;
+background-color:#ed2025;
+}
+
+#ftr #ftrfixed {
+width:990px;
+height:40px;
+margin:auto;
+}
+#ftrleftall #ftrcopy {
+width:990px;
+height:auto;
+float:left;
+margin:10px 0px 0px 0px;
+font-family:arun6;
+font-size:12px;
+color:#fff;
+text-align:center;
+}
+
+
+
+
